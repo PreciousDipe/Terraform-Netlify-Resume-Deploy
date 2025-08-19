@@ -7,6 +7,6 @@ provider "github" {
   owner = "PreciousDipe"
 }
 
-# provider "aws" {
-#   region = var.aws_region
-# }
+provider "aws" {
+  region = "us-east-1"
+}
