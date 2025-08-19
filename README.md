@@ -39,7 +39,7 @@ Before you begin, you will need the following:
   1. Access Key ID and Secret Access Key
   2. User must have Route 53 permissions
   3. Existing AWS Route 53 Hosted Zone
-    - You must have an existing hosted zone for your domain (e.g., `preciousdipe.com.ng`)
+     - You must have an existing hosted zone for your domain (e.g., `preciousdipe.com.ng`)
 
 ## Configuration
 
@@ -95,4 +95,4 @@ After a successful deployment, Terraform will output the following information:
 
 -   `site_name`: The unique name of your Netlify site.
 -   `site_url`: The URL of your live website (e.g., `https://resume-abcd.netlify.app`).
--   `custom_domain_url`: The URL of your live website using your custom-domain (e.g., [custom_domain_url](https://netlify.preciousdipe.com.ng) )
+-   `custom_domain_url`: The URL of your live website using your custom-domain (e.g., [https://netlify.preciousdipe.com.ng](https://netlify.preciousdipe.com.ng) )
